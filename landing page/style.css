@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: #1a3c48;
+}
+.outer{
+   
+    height: 100%;
+    width: 100%;
+    background-color: #006466;
+    color: white;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.inner{
+    /* height: 500px; */
+    width: 500px;
+    margin-top: 10%;
+ 
+    padding: 50px;
+
+}

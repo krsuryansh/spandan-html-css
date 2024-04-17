@@ -1,0 +1,283 @@
+body{
+    background: url("bg-img.jpg");
+    background-size: cover;
+    color: white;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   
+   
+    
+}
+/* .fixed{
+    position: fixed;
+    z-index: 5; 
+    
+
+} */
+nav{
+    
+    margin-top: 10px;
+    height: 90px;
+    background-color: rgb(33, 11, 48,0.2);
+    /* position: fixed;
+    z-index: 5; */
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+ul{
+    list-style: none;
+}
+.logo{
+    margin: 10px ;
+    padding: 10px;
+}
+.logo img{
+   
+    width: 200px;
+    height: 50px;
+}
+
+/* .logo img:hover{
+    width: 250px;
+    height: 70px;
+} */
+
+
+.nav-bar{
+    justify-content: space-between;
+   
+    
+}
+.links{
+    width: 600px;
+    padding: 10px
+    
+}
+.links ul{
+    justify-content: space-between;
+    align-items: normal;
+   
+    
+}
+.link-style{
+    /* width: 40px; */
+    align-items: center;
+    padding: 10px;
+    
+}
+/* hover-links-properties */
+.link-style:hover{
+    color:#11001c;
+    /* width: 50px; */
+   
+    border-radius: 8px;
+    
+    background-color: #a09e8e
+}
+
+.about{
+    padding-top: 60px;
+    height: 700px;
+    background-color: rgba(50, 24, 24, 0.2);
+    
+   
+}
+.about-me{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.my-name{
+    height: 200px;
+}
+.Hi{
+    font-size: 8rem;
+    padding-right: 10px;
+    color: red;
+}
+
+/* hi hover class */
+.Hi:hover{
+    color: blue;
+}
+.Sury{
+    font-size: 5rem;
+    padding-right: 10px;
+    color: #816f8e;
+  
+}
+ /* hover class */
+ .Sury:hover{
+    color: #d4bbe6;
+    
+
+ }
+.I{
+    height: 70px;
+    padding-right: 10px;
+    margin-top: 110px;
+}
+.my-img img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: fill;
+
+}
+.my-img{
+    height: 500px;
+    width: 500px;
+}
+/* my image hover state */
+.my-img img:hover {
+    /* width: 300px;
+    height: 300px;
+    border-radius: 50%;
+     */
+    filter: brightness(1.3);
+    /* filter: contrast(1.1); */
+    
+    
+}
+/* contacts  */
+.gmail img{
+    width: 35px;
+    height: 35px;
+}
+.linkdin img{
+    width: 35px;
+    height: 35px;
+}
+.contacts{
+    width: 500px;
+    justify-content: center;
+    gap: 20px;
+}
+.gmail img:hover{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.linkdin img:hover{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+/* -----end----  */
+
+/* ends */
+.my-photo{
+    /* margin: auto; */
+    padding-right: 100px;
+}
+.discription{
+    width: 100%;
+    justify-content: space-between;
+}
+
+/* utility class */
+.container{
+    max-width: 1180px;
+    margin-inline: auto;
+    
+
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+
+
+/* qualification properties */
+.qualification-heading{
+    color:#816f8e;
+    padding-top: 10px;
+}
+.contents{
+    border-left: 5px solid #816f8e;
+    padding-left: 10px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.box{
+   background-color: rgba(113, 113, 105, 0.329) ;
+   /* max-width: fit-content; */
+   line-height: 6px;
+   margin: 27px;
+    width: 682px;
+    padding: 9px;
+    box-shadow: 0px 3px 9px 0px;
+    position: relative;
+    
+}
+.box::before{
+    content:  '';
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    position: absolute;
+    right: calc(100% + 30px);
+    top: 0;
+    box-shadow: 0px 3px 9px 0px;
+    background-color: #15274d;
+    background-color: rgba(50, 24, 24);
+    border: 2px solid rgb(186, 174, 174);
+} 
+.box:hover{
+    background-color: rgba(243, 243, 11, 0.34) ;
+    border: 2px solid rgb(241, 238, 238);
+    
+}
+.col .box :hover{
+    color: white;
+}
+.title{
+    padding-top: 10px;
+    padding-left: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #887298;
+    font-size: 1.3rem;
+    text-decoration: underline;
+}
+.box p{
+    color: #887298 ;
+}
+.box h4{
+    color: #887298 ;
+}
+.box h2{
+    color: #d4bbe6;
+}
+.col{
+    margin-top: 15px;
+    background-color: rgba(77, 31, 31, 0.2);
+    height: 650px;
+}
+
+/* skill sections */
+.skill-img{
+    height: 40px;
+}
+.skill{
+    width: 900px;
+    justify-content: space-between;
+    margin-left: 20px;
+    align-items: center;
+    
+    margin-top: 40px;
+}
+.skills:hover{
+    /* background-color: rgba(0, 0, 255, 0.577); */
+    height: 160px;
+    width: 140px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(52, 63, 62, 0.659) ;  
+    border: 4px solid rgba(41, 25, 25, 0.899);
+    padding: 20px;
+    
+}

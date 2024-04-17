@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM adding element and removing elements</title>
+  </head>
+  <body style="background-color: rgb(54, 43, 43); color: aqua">
+    <ul class="language">
+      <li>Javascript</li>
+    </ul>
+  </body>
+  <script>
+    function addlanguage(lname) {
+      const li = document.createElement("li");
+      li.innerHTML = `${lname}`;
+      const ul = document.querySelector(".language");
+      ul.appendChild(li);
+    }
+    addlanguage("python");
+    addlanguage("Css");
+
+    function optiaddlanguage(lname) {
+      const li = document.createElement("li");
+      li.appendChild(document.createTextNode(lname));
+      document.querySelector(".language").appendChild(li);
+    }
+    optiaddlanguage("C++");
+    const secondlang = document.querySelector("li:nth-child(2)");
+    // secondlang.innerHTML ="Mojo"
+    const newli = document.createElement("li");
+    newli.innerText = "mojo";
+    secondlang.replaceWith(newli);
+    
+  </script>
+</html>
